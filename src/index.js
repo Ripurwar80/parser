@@ -5,7 +5,9 @@ const app = express();
 const v1WaptRouter = require("./v1/routes/waptRoutes")
 
 const PORT = 3001;
+const nocache = require("nocache");
 
+app.use(nocache());
 app.use(bodyParser.json());
 app.use("/api/v1", v1WaptRouter);
 app.use(cors());

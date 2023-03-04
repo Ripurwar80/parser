@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.0",
+    "nocache": "^3.0.4"
   }
 }

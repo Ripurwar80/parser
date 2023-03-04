@@ -4,10 +4,10 @@
       "executor": "jmeter",
       "scenario": "blazedemo",
       "concurrency": {
-        "local": 50
+        "local": 30
       },
-      "hold-for": "30s",
-      "ramp-up": "10s"
+      "hold-for": "10s",
+      "ramp-up": "1s"
     }
   ],
   "reporting": [
