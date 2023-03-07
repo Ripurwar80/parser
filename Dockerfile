@@ -1,4 +1,4 @@
-FROM node:16
+FROM nikolaik/python-nodejs:python3.11-nodejs19
 
 # Create app directory
 WORKDIR /
